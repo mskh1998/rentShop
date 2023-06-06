@@ -3,7 +3,19 @@ import React from "react";
 function AboutUs() {
   return (
     <div>
-      <button className="btn btn-warrning">akl</button>
+      <div className="container">
+        <div className="row">
+          <div className="shadow-md">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
