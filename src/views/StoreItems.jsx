@@ -10,7 +10,7 @@ function StoreItems() {
   const { items, basketItem } = useContext(storeContext);
   return (
     <>
-      <Container sx={{ marginTop: "100px" }} maxWidth="xl">
+      <Container sx={{ marginTop: "10px" }} maxWidth="xl">
         <Grid container spacing={2}>
           {items.map((data) => {
             return (
