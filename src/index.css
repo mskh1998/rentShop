@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -8,6 +8,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+} */
+@font-face {
+  font-family: "vazir";
+  src: url("../public/fonts/Vazir.eot");
+  src: url("../public/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../public/fonts/Vazir.woff2") format("woff2"),
+    url("../public/fonts/Vazir.woff") format("woff"),
+    url("../public/fonts/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: vazir !important;
 }
 
 a {
