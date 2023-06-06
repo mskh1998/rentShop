@@ -1,11 +1,7 @@
 import React from "react";
 
 function AboutUs() {
-  return (
-    <div>
-      <button className="btn btn-warrning">akl</button>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default AboutUs;
