@@ -1,4 +1,5 @@
 import MainLayout from "../layout/MainLayout";
+import AboutUs from "../views/AboutUs";
 import Home from "../views/Home";
 import StoreItems from "../views/StoreItems";
 
@@ -8,7 +9,7 @@ const HomeR = {
   children: [
     { path: "", element: <Home /> },
     { path: "storeItems", element: <StoreItems /> },
-    { path: "aboutUs", element: <StoreItems /> },
+    { path: "aboutUs", element: <AboutUs /> },
   ],
 };
 
