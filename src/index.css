@@ -1,27 +1,20 @@
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-} */
-@font-face {
-  font-family: "vazir";
-  src: url("../public/fonts/Vazir.eot");
-  src: url("../public/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
-    url("../public/fonts/Vazir.woff2") format("woff2"),
-    url("../public/fonts/Vazir.woff") format("woff"),
-    url("../public/fonts/Vazir.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+@import url(../public/fonts/font.css);
+h1 {
+  font-family: lalezar;
+  color: #3bcfc0;
 }
-body {
-  font-family: vazir !important;
+h2,
+span {
+  font-family: iranYekanHeader;
+  color: #282735;
+}
+span {
+  color: #4629d3;
+}
+p,
+a {
+  font-family: iranYekanText;
+  color: #282735a6;
 }
 
 a {

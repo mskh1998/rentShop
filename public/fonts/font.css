@@ -1,57 +1,32 @@
 @font-face {
-  font-family: "webYekan";
-  src: url("../fonts/BYekan.eot");
-  /*  url("../fonts/BYekan.eot@#iefix") format("embedded-opentype"), */
-  src: url("../fonts/BYekan.woff") format("woff"),
-    /* url("../fonts/BYekan.svg") format("svg"), */ url("../fonts/BYekan.ttf")
-      format("truetype");
-  font-weight: normal;
+  font-family: "iranYekanHeader";
+  src: url("../fonts/iranYekan/Iranyekan.ttf");
+  src: url("../fonts/iranYekan/Iranyekan.ttf") format("truetype");
   font-style: normal;
-  font-size: 12px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 73px;
 }
-
-/* @font-face {
-  font-family: "yekan";
-  src: url("../fonts/Yekan.eot");
-  src: url("../fonts/Yekan.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Yekan.woff") format("woff"),
-    url("../fonts/Yekan.ttf") format("truetype"),
-    url("../fonts/Yekan.svg#BYekan") format("svg");
-  font-weight: normal;
+@font-face {
+  font-family: "iranYekanText";
+  src: url("../fonts/iranYekan/Iranyekan.ttf");
+  src: url("../fonts/iranYekan/Iranyekan.ttf") format("truetype");
   font-style: normal;
-} */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
 
 @font-face {
-  font-family: "BKoodakBold";
-  src: url("../fonts/BKoodakBold.eot");
-  /* src: url("../fonts/BKoodakBold.eot@#iefix") format("embedded-opentype"), */
-  src: url("../fonts/BKoodakBold.woff") format("woff"),
-    /* url("../fonts/BKoodakBold.svg") format("svg"), */
-      url("../fonts/BKoodakBold.ttf") format("truetype");
-  font-weight: normal;
+  font-family: "lalezar";
+  src: url("../fonts/Lalezar-Font/Lalezar-Regular.otf") format("openType");
+  src: url("../fonts/Lalezar-Font/Lalezar-Regular.ttf") format("truetype");
   font-style: normal;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 83px;
 }
 
-/* @font-face {
-    font-family: 'nassim-regular';
-    src: url('../fonts/nassim-regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-size: 12px;
-} */
-
-@font-face {
-  font-family: "IRANSans";
-  /*src: url('../fonts/IRANSansWeb.eot');
-    src: url('../fonts/IRANSansWeb.eot@#iefix') format('embedded-opentype'),*/
-  src: url("../fonts/IRANSansWeb.woff") format("woff"),
-    url("../fonts/IRANSansWeb.ttf") format("truetype");
-  /*url('../fonts/IRANSansWeb.svg') format('svg');*/
-  font-weight: normal;
-  font-style: normal;
-  font-size: 12px;
-}
 @font-face {
   font-family: "Vazir";
   src: url("../fonts/Vazir.eot");

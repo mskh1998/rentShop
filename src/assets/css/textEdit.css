@@ -1,0 +1,29 @@
+.backGroundShape {
+  position: absolute;
+  width: 672px;
+  height: 500px;
+  left: 91.18px;
+  top: 138px;
+  background: rgba(59, 207, 192, 0.56);
+  transform: rotate(30deg);
+  border-radius: 50%;
+}
+
+.backGroundImage {
+  position: absolute;
+  width: 650px;
+  height: 500px;
+  left: 80px;
+  top: 120px;
+  background-image: url(../../../public/images/landingPage.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

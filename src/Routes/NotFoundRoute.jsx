@@ -1,10 +1,10 @@
 import NotFoundLayout from "../layout/NotFoundLayout";
 import NotFound from "../views/NotFound";
 
-const Login = {
+const NotFoundPage = {
   path: "*",
   element: <NotFoundLayout />,
   children: [{ path: "*", element: <NotFound /> }],
 };
 
-export default Login;
+export default NotFoundPage;

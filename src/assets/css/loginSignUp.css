@@ -1,0 +1,42 @@
+.LoginSign {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.LoginSign > .box {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.LoginSign > .login {
+  background-image: url(../../../public/images/Picsart_23-06-10_19-49-24-828.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.LoginSign > .signUp {
+  background-image: url(../../../public/images/Picsart_23-06-10_22-52-02-495.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: "iranYekanText" !important;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  left: unset;
+  right: 30px;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input,
+.css-ahj2mt-MuiTypography-root,
+.css-101ca9i-MuiTypography-root-MuiLink-root {
+  color: #4629d399 !important;
+  font-family: "iranYekanText" !important;
+  text-decoration: none !important;
+}
+
+.css-ag7rrr-MuiTypography-root {
+  font-family: "iranYekanHeader";
+}
