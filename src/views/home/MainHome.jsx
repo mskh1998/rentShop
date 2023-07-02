@@ -8,9 +8,7 @@ function MainHome() {
   return (
     <div className="mainHome">
       <div className="searchFilter"></div>
-      <div className="rentItems">
-        <RentList />
-      </div>
+      <div className="rentItems">{/* <RentList /> */}</div>
     </div>
   );
 }
