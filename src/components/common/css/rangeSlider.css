@@ -1,0 +1,17 @@
+.css-1gv0vcd-MuiSlider-track,
+.css-eg0mwd-MuiSlider-thumb {
+  color: #3bcfc0;
+}
+.css-nnid7-MuiSlider-valueLabel {
+  background-color: transparent !important;
+  top: 50px !important;
+  font-family: "iranYekanText" !important;
+}
+.css-eg0mwd-MuiSlider-thumb {
+  width: 20px;
+  height: 20px;
+}
+.css-0 {
+  margin: 20px 0;
+  width: 90%;
+}

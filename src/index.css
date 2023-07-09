@@ -8,12 +8,10 @@ span {
   font-family: iranYekanHeader;
   color: #282735;
 }
-span {
-  color: #4629d3;
-}
+
 p,
 a {
-  font-family: iranYekanText;
+  font-family: iranYekanText !important;
   color: #282735a6;
 }
 

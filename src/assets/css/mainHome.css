@@ -1,4 +1,57 @@
 .mainHome {
-  margin-top: 100px;
+  margin-top: 125px;
   display: flex;
+  padding: 0 90px;
+  justify-content: space-between;
+}
+
+.searchFilter {
+  width: 20%;
+}
+.filterBox {
+  width: 100%;
+  max-height: 230px;
+  border: 1px solid #28273526;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.css-1gjgmky-MuiToggleButtonGroup-root {
+  width: 100%;
+  display: flex;
+  border: 1px solid #28273526;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #292d32b2;
+}
+.css-1gjgmky-MuiToggleButtonGroup-root .MuiToggleButtonGroup-grouped {
+  border: 0;
+  border-radius: 6px !important;
+  margin: 0px 5px;
+  font-family: "iranYekanText";
+}
+.css-ueukts-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+  background-color: #3bcfc0 !important;
+}
+.css-i9g41y-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-i9g41y-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: #3bcfc0 !important;
+}
+
+.css-ueukts-MuiButtonBase-root-MuiToggleButton-root.Mui-selected:hover,
+.css-1gjgmky-MuiToggleButtonGroup-root .MuiToggleButtonGroup-grouped:hover {
+  background-color: #3bcfc0ad !important;
+}
+
+.items {
+  width: 75%;
+}
+
+.rentItems {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

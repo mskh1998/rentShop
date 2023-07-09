@@ -11,7 +11,8 @@ function LandingPage() {
         <div className="row ">
           <div className="col-md-7 main-box">
             <h2>
-              هر چیزی را می تونی <span>اجاره</span> کنی !
+              هر چیزی را می تونی <span style={{ color: "#4629d3" }}>اجاره</span>{" "}
+              کنی !
             </h2>
             <p style={{ width: "500px", margin: "20px 0" }}>
               با رنتو می‌تونی کالاهاتو به دیگران اجاره بدی و درآمد کسب کنی یا

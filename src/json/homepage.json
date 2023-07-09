@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "هدفون",
+    "imgUrl": "../../../public/images/o9.jpg",
+    "location": "تهران",
+    "price": "200 هزار",
+    "type": "روزانه"
+  },
+  {
+    "id": "1",
+    "name": "هدفون",
+    "imgUrl": "../../../public/images/o15.jpg",
+    "location": "تهران",
+    "price": "200 هزار",
+    "type": "روزانه"
+  },
+  {
+    "id": "1",
+    "name": "هدفون",
+    "imgUrl": "../../../public/images/o18.jpg",
+    "location": "تهران",
+    "price": "200 هزار",
+    "type": "روزانه"
+  },
+  {
+    "id": "1",
+    "name": "هدفون",
+    "imgUrl": "../../../public/images/o19.jpg",
+    "location": "تهران",
+    "price": "200 هزار",
+    "type": "روزانه"
+  }
+]

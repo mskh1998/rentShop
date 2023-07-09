@@ -15,7 +15,9 @@ function Footer() {
             <div className="col-sm-2 footerZ-index">
               <ul>
                 <li className="d-flex justify-content-start">
-                  <h1 style={{ color: "#3b30fc0" }}>رنتو</h1>
+                  <h1 style={{ color: "#3b30fc0", fontFamily: "lalezar" }}>
+                    رنتو
+                  </h1>
                 </li>
                 <li className="d-flex justify-content-start">
                   <p className="text-white pSafeFont">با خیال راحت اجاره کن</p>

@@ -1,9 +1,12 @@
 import React from "react";
 import BasicRating from "../common/BasicRating";
+import RangeSlider from "../common/RangeSlider";
 
 function MainInfo() {
   return (
     <div class="row">
+      <RangeSlider />
+
       <div class="col-sm-12 col-md-5 border-left" id="el"></div>
       <div class="col-sm-12 col-md-7">
         <h1 class="product-page-title mt-4 d-flex justify-content-between">
