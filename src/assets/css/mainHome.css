@@ -55,3 +55,19 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+.adf {
+  color: red;
+  overflow: auto;
+}
+.adf::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background-color: yellow;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: red;
+}

@@ -62,8 +62,9 @@ function MainHome() {
               <FormGroup
                 sx={{
                   width: "100%",
-                  flexDirection: "row",
+                  flexDirection: "cloumn",
                 }}
+                className="adf"
                 aria-label="position"
               >
                 {x.items.map((y) => {
